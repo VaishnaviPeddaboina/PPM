@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEmployeeProperties xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EmployeeProperties>
+    <EmployeeId>1</EmployeeId>
+    <FirstName>erf</FirstName>
+    <LastName>wef</LastName>
+    <Email>w@gmail.com</Email>
+    <MobileNum>9898988998</MobileNum>
+    <Address>qd</Address>
+    <RoleId>0</RoleId>
+  </EmployeeProperties>
+</ArrayOfEmployeeProperties>
