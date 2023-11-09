@@ -1,0 +1,15 @@
+C:\Users\VPeddaboina\Documents\Day09\bin\Debug\net7.0\Day09.exe
+C:\Users\VPeddaboina\Documents\Day09\bin\Debug\net7.0\Day09.deps.json
+C:\Users\VPeddaboina\Documents\Day09\bin\Debug\net7.0\Day09.runtimeconfig.json
+C:\Users\VPeddaboina\Documents\Day09\bin\Debug\net7.0\Day09.dll
+C:\Users\VPeddaboina\Documents\Day09\bin\Debug\net7.0\Day09.pdb
+C:\Users\VPeddaboina\Documents\Day09\obj\Debug\net7.0\Day09.csproj.AssemblyReference.cache
+C:\Users\VPeddaboina\Documents\Day09\obj\Debug\net7.0\Day09.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VPeddaboina\Documents\Day09\obj\Debug\net7.0\Day09.AssemblyInfoInputs.cache
+C:\Users\VPeddaboina\Documents\Day09\obj\Debug\net7.0\Day09.AssemblyInfo.cs
+C:\Users\VPeddaboina\Documents\Day09\obj\Debug\net7.0\Day09.csproj.CoreCompileInputs.cache
+C:\Users\VPeddaboina\Documents\Day09\obj\Debug\net7.0\Day09.dll
+C:\Users\VPeddaboina\Documents\Day09\obj\Debug\net7.0\refint\Day09.dll
+C:\Users\VPeddaboina\Documents\Day09\obj\Debug\net7.0\Day09.pdb
+C:\Users\VPeddaboina\Documents\Day09\obj\Debug\net7.0\Day09.genruntimeconfig.cache
+C:\Users\VPeddaboina\Documents\Day09\obj\Debug\net7.0\ref\Day09.dll
