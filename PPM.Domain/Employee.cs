@@ -2,29 +2,35 @@ using PPM.Model;
 using System.Numerics;
 using System.Reflection.Emit;
 using System.Text.RegularExpressions;
+using PPM.Dal;
 
 public class Employee : IEntityOperation<EmployeeProperties>
  {
 public static List<EmployeeProperties> empList = new List<EmployeeProperties>();
     public  void AddEntity(EmployeeProperties empobj)
     {
-         empList.Add(empobj); 
+        //  empList.Add(empobj); 
+       EmployeeDal employeeDal = new EmployeeDal();
+       employeeDal.AddEmployee(empobj);
     }
 
     public List<EmployeeProperties> ListAll()
     {
-        return empList;
+       EmployeeDal employeeDal = new EmployeeDal();
+         var empList= employeeDal.ViewEmployeeDal();
+         return empList;
     }
-    public EmployeeProperties ListById(int id)
+    public List<EmployeeProperties> ListById(int id)
     {
-        return empList.Find(e => e.EmployeeId == id)!;
+           EmployeeDal employeeDal = new EmployeeDal();
+         var empList= employeeDal.ViewEmployeeByIdDal(id);
+         return empList;
+        
     }
-    public  void  Delete(int EmployeeId)
+    public  bool  Delete(int EmployeeId)
     {
-      int remove = Employee.empList.FindIndex(r => r.EmployeeId == EmployeeId );
-            if (remove >= 0)
-            {
-                empList.RemoveAt(remove);
-            }
+        EmployeeDal employeeDal = new EmployeeDal();
+         bool empList= employeeDal.DeleteEmployeeByIdDal(EmployeeId);
+         return empList;
     }   
 }

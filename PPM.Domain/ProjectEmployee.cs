@@ -1,51 +1,41 @@
 using PPM.Model;
+using PPM.Dal;
 
-namespace PPM.Domain 
+namespace PPM.Domain
 {
-public  class ProjectEmployee
-{
- public static List<ProjectEmployeeProperties> projectEmployee = new List<ProjectEmployeeProperties>();
- ProjectEmployee proj = new ProjectEmployee();
-    public static void AddEmployeetoproject(int projectid ,  int employeeid , int roleid)
-   {   
-       ProjectEmployeeProperties obj = new ProjectEmployeeProperties()
-       {
-        ProjectID = projectid,
-        // ProjectName = projectName,
-        EmployeeId = employeeid,
-        RoleID = roleid
-       };
-    projectEmployee.Add(obj);
-   }
-    public static void RemoveEmployeeProjectMethod(int projectId, int employeeId)
+    public class ProjectEmployee
+    {
+        public static List<ProjectEmployeeProperties> projectEmployee = new List<ProjectEmployeeProperties>();
+        ProjectEmployee proj = new ProjectEmployee();
+        public static void AddEmployeetoproject(int projectid, int employeeid, int roleid)
         {
-            int remove = projectEmployee.FindIndex(r => r.ProjectID == projectId && r.EmployeeId == employeeId);
-            if (remove >= 0)
+            ProjectEmployeeProperties obj = new ProjectEmployeeProperties()
             {
-                projectEmployee.RemoveAt(remove);
-            }
-            else
+                ProjectID = projectid,
+                EmployeeId = employeeid,
+                RoleID = roleid
+            };
+
+            ProjectEmployeeDal project = new ProjectEmployeeDal();
+            project.AddEmployeeToProject(obj);
+        }
+        public static void RemoveEmployeeProjectMethod(int projectId, int employeeId)
+        {
+            ProjectEmployeeProperties obj = new ProjectEmployeeProperties()
             {
-                System.Console.WriteLine("Employee not found");
-            }
+                ProjectID = projectId,
+                EmployeeId = employeeId,
+
+            };
+            ProjectEmployeeDal project = new ProjectEmployeeDal();
+            project.DeleteProjectEmployeeByIdDal(obj);
         }
-        public static void ViewProjectEmployees()
-        {
-             if(projectEmployee.Count == 0)
-         {
-          Console.ForegroundColor = ConsoleColor.Red;
-          Console.WriteLine("-------------------No Existing Projects-----------");
-           Console.ResetColor();
-         }
-         else
-         {
-          Console.WriteLine("-----------------------------------------------------------------------------------------------------------------------");
-        foreach(ProjectEmployeeProperties item in projectEmployee)
-        {
-            Console.WriteLine("Project Id : {0}   Project Name : {1}   Employee ID : {2}   First Name : {3},   Last Name : {4},   Role Id : {5}",item.ProjectID,  item.EmployeeId ,item.RoleID);
-        }
-         Console.WriteLine("-----------------------------------------------------------------------------------------------------------------------");
-         }
-        }
-}
+        public static  List<ProjectEmployeeProperties> ViewEmployeesProject()
+  {
+    ProjectEmployeeDal projectemp = new ProjectEmployeeDal();
+    var ProjectemployeeList = projectemp.ViewEmployeeinProjectDal();
+    return ProjectemployeeList;
+    
+  }
+    }
 }

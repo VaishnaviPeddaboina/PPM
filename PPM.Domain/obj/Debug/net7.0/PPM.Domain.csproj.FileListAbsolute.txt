@@ -28,3 +28,5 @@ C:\Users\VPeddaboina\Documents\Day09\PPM.Domain\obj\Debug\net7.0\PPM.Domain.dll
 C:\Users\VPeddaboina\Documents\Day09\PPM.Domain\obj\Debug\net7.0\refint\PPM.Domain.dll
 C:\Users\VPeddaboina\Documents\Day09\PPM.Domain\obj\Debug\net7.0\PPM.Domain.pdb
 C:\Users\VPeddaboina\Documents\Day09\PPM.Domain\obj\Debug\net7.0\ref\PPM.Domain.dll
+C:\Users\VPeddaboina\Documents\Day09\PPM.Domain\bin\Debug\net7.0\PPM.Dal.dll
+C:\Users\VPeddaboina\Documents\Day09\PPM.Domain\bin\Debug\net7.0\PPM.Dal.pdb

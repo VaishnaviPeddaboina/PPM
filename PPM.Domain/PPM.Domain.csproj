@@ -2,6 +2,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PPM.Model\PPM.Model.csproj" />
+    <ProjectReference Include="..\PPM.Dal\PPM.Dal.csproj" />
+  
   </ItemGroup>
 
   <PropertyGroup>
