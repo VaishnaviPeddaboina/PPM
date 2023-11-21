@@ -7,8 +7,8 @@ namespace PPM.Model
 public interface IRole
 {
    public  void AddRole();
-   public List<RoleProperties> ViewRole();
-   public  List<RoleProperties> ViewRoleById();
+   public void ViewRole();
+   public  void ViewRoleById();
    public  void DeleteRole();
 }
 

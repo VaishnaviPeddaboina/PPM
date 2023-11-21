@@ -7,8 +7,8 @@ namespace PPM.Model
 public interface IProject
 {
         public void AddProjectAndEmployee();
-        public  List<ProjectProperties> ViewProjects();
-        public  List<ProjectProperties> ViewProjectsById();
+        public  void ViewProjects();
+        public  void ViewProjectsById();
         public  void ProjectDelete();
 }
   

@@ -7,7 +7,7 @@ namespace PPM.Model
 public interface IEmployee
 {
     public  void AddEmployee();
-    public  List<EmployeeProperties> ViewEmployees();
+    public  void ViewEmployees();
     public  List<EmployeeProperties> ViewEmployeesById();
     public void EmployeeDelete();
 

@@ -13,23 +13,23 @@ namespace PPM.Model
         public string? ProjectName { get; set; }
 
         [XmlIgnore] // Ignore the DateOnly properties during serialization
-        public DateOnly StartDate { get; set; }
+        public DateTime StartDate { get; set; }
 
         [XmlIgnore]
-        public DateOnly EndDate { get; set; }
+        public DateTime EndDate { get; set; }
 
         [XmlElement("Startdate")]
         public string StartdateString
         {
             get { return StartDate.ToString(); }
-            set { StartDate = DateOnly.Parse(value); }
+            set { StartDate = DateTime.Parse(value); }
         }
 
         [XmlElement("Enddate")]
         public string EnddateString
         {
             get { return EndDate.ToString(); }
-            set { EndDate = DateOnly.Parse(value); }
+            set { EndDate = DateTime.Parse(value); }
         }
 
         public override string ToString()
