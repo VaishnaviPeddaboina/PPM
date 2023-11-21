@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "sJt4ViEN4hS6lgBiSZ+YxIxkQKlzFbOEh7BbIFyl2dzdX3xgRea0mTiMFJVK68mMXzTt7eeqCr4GSn1WhR6Rag==",
+  "dgSpecHash": "MsHwPGD0H+akQbgMePj5CzLqwWEq9oo7/sgHqpWzgZDOFfs4EnZkWfuC6qyuqa0zFyICr4rS+FkXn4Q9AYsfSw==",
   "success": true,
   "projectFilePath": "C:\\Users\\VPeddaboina\\Documents\\Day09\\PPM.Ui.Consoles\\PPM.Ui.Consoles.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\VPeddaboina\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\VPeddaboina\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\VPeddaboina\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\VPeddaboina\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\VPeddaboina\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\VPeddaboina\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\VPeddaboina\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
+    "C:\\Users\\VPeddaboina\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\VPeddaboina\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -32,3 +32,5 @@ C:\Users\VPeddaboina\Documents\Day09\PPM.Ui.Consoles\obj\Debug\net7.0\PPM.Ui.Con
 C:\Users\VPeddaboina\Documents\Day09\PPM.Ui.Consoles\obj\Debug\net7.0\refint\PPM.Ui.Consoles.dll
 C:\Users\VPeddaboina\Documents\Day09\PPM.Ui.Consoles\obj\Debug\net7.0\PPM.Ui.Consoles.pdb
 C:\Users\VPeddaboina\Documents\Day09\PPM.Ui.Consoles\obj\Debug\net7.0\ref\PPM.Ui.Consoles.dll
+C:\Users\VPeddaboina\Documents\Day09\PPM.Ui.Consoles\bin\Debug\net7.0\PPM.Dal.dll
+C:\Users\VPeddaboina\Documents\Day09\PPM.Ui.Consoles\bin\Debug\net7.0\PPM.Dal.pdb
