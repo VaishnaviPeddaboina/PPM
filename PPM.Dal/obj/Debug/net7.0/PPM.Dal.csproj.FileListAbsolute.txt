@@ -1,0 +1,15 @@
+C:\Users\VPeddaboina\Documents\Day09\PPM.Dal\bin\Debug\net7.0\PPM.Dal.deps.json
+C:\Users\VPeddaboina\Documents\Day09\PPM.Dal\bin\Debug\net7.0\PPM.Dal.dll
+C:\Users\VPeddaboina\Documents\Day09\PPM.Dal\bin\Debug\net7.0\PPM.Dal.pdb
+C:\Users\VPeddaboina\Documents\Day09\PPM.Dal\bin\Debug\net7.0\PPM.Model.dll
+C:\Users\VPeddaboina\Documents\Day09\PPM.Dal\bin\Debug\net7.0\PPM.Model.pdb
+C:\Users\VPeddaboina\Documents\Day09\PPM.Dal\obj\Debug\net7.0\PPM.Dal.csproj.AssemblyReference.cache
+C:\Users\VPeddaboina\Documents\Day09\PPM.Dal\obj\Debug\net7.0\PPM.Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VPeddaboina\Documents\Day09\PPM.Dal\obj\Debug\net7.0\PPM.Dal.AssemblyInfoInputs.cache
+C:\Users\VPeddaboina\Documents\Day09\PPM.Dal\obj\Debug\net7.0\PPM.Dal.AssemblyInfo.cs
+C:\Users\VPeddaboina\Documents\Day09\PPM.Dal\obj\Debug\net7.0\PPM.Dal.csproj.CoreCompileInputs.cache
+C:\Users\VPeddaboina\Documents\Day09\PPM.Dal\obj\Debug\net7.0\PPM.Dal.csproj.CopyComplete
+C:\Users\VPeddaboina\Documents\Day09\PPM.Dal\obj\Debug\net7.0\PPM.Dal.dll
+C:\Users\VPeddaboina\Documents\Day09\PPM.Dal\obj\Debug\net7.0\refint\PPM.Dal.dll
+C:\Users\VPeddaboina\Documents\Day09\PPM.Dal\obj\Debug\net7.0\PPM.Dal.pdb
+C:\Users\VPeddaboina\Documents\Day09\PPM.Dal\obj\Debug\net7.0\ref\PPM.Dal.dll
